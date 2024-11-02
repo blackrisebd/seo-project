@@ -29,11 +29,123 @@
 
 <body class="figtree">
   <header>
+   
+<!-- nav  -->
+<navbar class="w-full min-h-screen text-gray-900 bg-gradient-to-br from-transparent to-yellow-100">
+  <nav class="flex justify-around items-center py-8 px-6 mx-auto max-w-screen-xl md:px-12 lg:px-16 xl:px-24">
+    <button
+      class="sidebar-open block md:hidden relative z-30 focus:outline-none transform  -translate-x-1/2 -translate-y-1/2 active:scale-75 transition-transform">
+      <svg xmlns="http://www.w3.org/2000/svg" class="btn-open h-5 w-5 transform transition duration-500 ease-in-out"
+        viewBox="0 0 20 20" fill="currentColor">
+        <path fill-rule="evenodd"
+          d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+          clip-rule="evenodd" />
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg"
+        class="btn-close hidden h-5 w-5 transform transition duration-500 ease-in-out" viewBox="0 0 20 20"
+        fill="currentColor">
+        <path fill-rule="evenodd"
+          d="M3 7a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 13a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+          clip-rule="evenodd" />
+      </svg>
+    </button>
+    <a href="#" class="text-3xl md:text-4xl font-bold text-[#ff6610] tracking-wide">
+      SE<span class="text-[#090b0e]">OC</span>
+    </a>
+    <div
+      class="menu-resposive hidden fixed flex inset-0 transition-all bg-white/70 backdrop-blur-xl z-20 md:static md:bg-transparent md:flex items-center justify-center space-y-8 md:space-y-0 flex-col md:flex-row md:space-x-8 -mt-56 md:mt-0 ">
+      <ul class="flex flex-col md:flex-row items-center space-y-6 md:space-y-0 md:space-x-3 xl:space-x-5 lg:md:-x-8">
+        <li class="text-lg md:text-base lg:text-lg font-medium group text-[#090b0e] hover:text-[#ff6610]">
+          <a href="#">About
+          </a>
+          <div
+            class="h-0.5 bg-[#ff6610] scale-x-0 group-hover:scale-100 transition-transform origin-left rounded-full duration-300 ease-out">
+          </div>
+        </li>
+        <li class="text-lg md:text-base lg:text-lg font-medium group text-[#090b0e] hover:text-[#ff6610]">
+          <a href="#">Services
+          </a>
+          <div
+            class="h-0.5 bg-[#ff6610] scale-x-0 group-hover:scale-100 transition-transform origin-left rounded-full duration-300 ease-out">
+          </div>
+        </li>
+        <li class="text-lg md:text-base lg:text-lg font-medium group text-[#090b0e] hover:text-[#ff6610]">
+          <a href="#">Case Study
+          </a>
+          <div
+            class="h-0.5 bg-[#ff6610] scale-x-0 group-hover:scale-100 transition-transform origin-left rounded-full duration-300 ease-out">
+          </div>
+        </li>
+        <li class="text-lg md:text-base lg:text-lg font-medium group text-[#090b0e] hover:text-[#ff6610]">
+          <a href="#">Works
+          </a>
+          <div
+            class="h-0.5 bg-[#ff6610] scale-x-0 group-hover:scale-100 transition-transform origin-left rounded-full duration-300 ease-out">
+          </div>
+        </li>
+        <li class="text-lg md:text-base lg:text-lg font-medium group text-[#090b0e] hover:text-[#ff6610]">
+          <a href="#">Testimonials
+          </a>
+          <div
+            class="h-0.5 bg-[#ff6610] scale-x-0 group-hover:scale-100 transition-transform origin-left rounded-full duration-300 ease-out">
+          </div>
+        </li>
+        <li class="text-lg md:text-base lg:text-lg font-medium group text-[#090b0e] hover:text-[#ff6610]">
+          <a href="#">Blogs
+          </a>
+          <div
+            class="h-0.5 bg-[#ff6610] scale-x-0 group-hover:scale-100 transition-transform origin-left rounded-full duration-300 ease-out">
+          </div>
+        </li>
+       
+      </ul>
+      <button id="free-btn"
+    class="flex items-center space-x-2 px-2 pl-3 gap-1  bg-[#ff6610] text-white font-semibold py-2  rounded-full hover:bg-orange-600 transition duration-200">
+    <span class="">Free Consultation</span>
+
+    <svg width="31" height="31" class="bg-white rounded-full p-2" viewBox="0 0 24 23" fill="none"
+      xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M6.39052 7.74418V6.65037C6.41538 6.17805 6.78826 5.80516 7.23573 5.80516L16.906 5.7803C17.3783 5.80516 17.7512 6.17805 17.7512 6.62551V16.3206C17.7512 16.7681 17.3783 17.141 16.906 17.1658H15.8122C15.3398 17.141 14.967 16.7681 14.9421 16.2958L15.0912 10.429L7.95665 17.5636C7.60862 17.9116 7.11143 17.9116 6.7634 17.5636L5.96791 16.7681C5.64474 16.4449 5.61988 15.9229 5.96791 15.5748L13.1025 8.44024L7.26059 8.61425C6.78826 8.58939 6.39052 8.24136 6.39052 7.74418Z"
+        fill="#090B0E" />
+    </svg>
+  </button>
+      
+    </div>
+   <div class="flex sm:gap-2 gap-1 items-center">
+    <button class="search-menu flex justify-center items-center font-medium text-[#ff6610] whitespace-nowrap 
+    rounded-xl transform hover:scale-105 transition duration-500 focus:outline-none">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+        <path fill-rule="evenodd"
+          d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
+          clip-rule="evenodd" />
+      </svg>
+    </button>
+    
+   </div>
+  </nav>
+  <div class="search-form 2xl:left-[25%] xl:left-60 lg:left-80 md:left-10 left-5 lg:w-3/5 w-11/12 hidden flex items-center space-x-4 px-6 mx-auto max-w-screen-xl md:px-12 lg:px-16 xl:px-24 
+  transform duration-500 transition-all">
+    <div class="flex bg-gray-200 p-2 w-full space-x-2 rounded-lg items-center">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 opacity-75 ml-4" fill="none" viewBox="0 0 24 24"
+        stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+      </svg>
+      <input
+        class="w-full px-2 bg-gray-50 outline-none border-transparent focus:border-transparent focus:ring-0 rounded-lg text-sm sm:text-base"
+        type="text" placeholder="Animal name or keyword..." />
+    </div>
+  </div>
+  
+</navbar>
+
+
     <!-- hero  -->
     <section class="hero lg:mb-20 mb-10">
       <div class="relative ">
         <div
-          class="flex md:flex-col flex-col lg:flex-row gap-20 xl:gap-28 items-center py-10 lg:py-20 lg:mb-32 xl:px-28 lg:px-10 sm:px-10 px-5 ">
+          class="flex md:flex-col flex-col lg:flex-row gap-20 xl:gap-28 items-center py-10 lg:py-20 lg:mb-32 xl:px-28 lg:px-10 sm:px-10 px-5">
           <div class="text-center lg:text-left justify-center space-y-4">
             <h2
               class="text-[#090b0e] font-semibold lg:text-6xl md:text-3xl text-xl lg:max-w-80 max-w-[100%] flex lg:justify-start justify-center">
@@ -808,159 +920,171 @@
 
     </section>
 
-    <!-- client  -->
-    <section class="lg:my-20 my-10">
-      <div>
-        <div class="text-center space-y-3 mb-4 md:mb-10">
+    <!-- Testimonials  -->
+    <section>
+      <div class="text-center justify-center space-y-3 mb-4 md:mb-10">
           <p class="text-[#ff6610] text-base">Testimonials</p>
           <h2 class="text-[#090b0e] lg:text-4xl md:text-3xl text-xl font-bold">
             What Our Client Say
           </h2>
         </div>
-
-        <!-- slide  -->
-        <swiper-container loop="true" class="mySwiper" pagination-clickable="true" space-between="30"
-          slides-per-view="3">
-          <!-- 1 -->
-          <swiper-slide>
-            <div class="bg-white shadow-lg p-6 rounded-lg max-w-7xl relative">
-              <div class="flex mb-4">
-                <div class="text-[#ffba00]">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
+      <div class="swiper-container mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="bg-white shadow-lg p-6 rounded-lg max-w-7xl relative">
+                    <div class="flex mb-4">
+                        <div class="text-[#ffba00]">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 text-lg mb-4 relative text-left ">
+                        We've had the pleasure of working with [Your Company Name] for several years
+                        now, and they have consistently exceeded our expectations in every aspect. From
+                        the initial consultation to ongoing support, their team has demonstrated a deep
+                        understanding.”
+                    </p>
+                    <div class="text-4xl text-gray-400 absolute bottom-4 right-4">
+                        <img src="images/quito6.svg.svg" alt="">
+                    </div>
+                    <div class="flex items-center mt-4">
+                        <img src="images/testimonial-img4.png.png" alt="Client photo" class="rounded-full w-10 h-10 mr-3">
+                        <div class="text-left">
+                            <p class="font-semibold">Orlando Schulist</p>
+                            <p class="text-sm text-gray-500">Company Owner</p>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <!-- Quotation marks -->
-
-              <p class="text-gray-700 text-lg mb-4 relative text-left max-w-[600px]">
-                We've had the pleasure of working with [Your Company Name] for several years
-                now, and they have consistently exceeded our expectations in every aspect. From
-                the initial consultation to ongoing support, their team has demonstrated a deep
-                understanding.”
-              </p>
-              <div class="text-4xl text-gray-400 absolute bottom-4 right-4">
-                <img src="images/quito6.svg.svg" alt="">
-              </div>
-              <div class="flex items-center mt-4">
-                <img src="images/testimonial-img4.png.png" alt="Client photo" class="rounded-full w-10 h-10 mr-3">
-                <div class="text-left">
-                  <p class="font-semibold">Orlando Schulist</p>
-                  <p class="text-sm text-gray-500">Company Owner</p>
-                </div>
-              </div>
             </div>
-          </swiper-slide>
-          <!-- 2 -->
-          <swiper-slide>
-            <div class="bg-[#ff6610] text-white shadow-lg p-6 rounded-lg max-w-7xl relative">
-              <div class="flex mb-4">
-                <div class="text-[#ffba00]">
-                  <i class="fas fa-star bg-[#FD7433] p-1"></i>
-                  <i class="fas fa-star bg-[#FD7433] p-1"></i>
-                  <i class="fas fa-star bg-[#FD7433] p-1"></i>
-                  <i class="fas fa-star bg-[#FD7433] p-1"></i>
-                  <i class="fas fa-star bg-[#FD7433] p-1"></i>
+            <div class="swiper-slide">
+                <div class="bg-[#ff6610] text-white shadow-lg p-6 rounded-lg max-w-7xl relative">
+                    <div class="flex mb-4">
+                        <div class="text-[#ffba00]">
+                            <i class="fas fa-star bg-[#FD7433] p-1"></i>
+                            <i class="fas fa-star bg-[#FD7433] p-1"></i>
+                            <i class="fas fa-star bg-[#FD7433] p-1"></i>
+                            <i class="fas fa-star bg-[#FD7433] p-1"></i>
+                            <i class="fas fa-star bg-[#FD7433] p-1"></i>
+                        </div>
+                    </div>
+                    <p class="text-white text-lg mb-4 relative text-left w-full">
+                        We've had the pleasure of working with [Your Company Name] for several years
+                        now, and they have consistently exceeded our expectations in every aspect. From
+                        the initial consultation to ongoing support, their team has demonstrated a deep
+                        understanding.”
+                    </p>
+                    <div class="text-4xl text-white absolute bottom-4 right-4">
+                        <img src="images/quito7.svg.png" alt="">
+                    </div>
+                    <div class="flex items-center mt-4">
+                        <img src="images/testimonial-img3.png.png" alt="Client photo" class="rounded-full w-10 h-10 mr-3">
+                        <div class="text-left">
+                            <p class="font-semibold">Orlando Schulist</p>
+                            <p class="text-sm text-white">Company Owner</p>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <!-- Quotation marks -->
-
-              <p class="text-white text-lg mb-4 relative text-left max-w-[600px]">
-                We've had the pleasure of working with [Your Company Name] for several years
-                now, and they have consistently exceeded our expectations in every aspect. From
-                the initial consultation to ongoing support, their team has demonstrated a deep
-                understanding.”
-              </p>
-              <div class="text-4xl text-white absolute bottom-4 right-4">
-                <img src="images/quito7.svg.png" alt="">
-              </div>
-              <div class="flex items-center mt-4">
-                <img src="images/testimonial-img3.png.png" alt="Client photo" class="rounded-full w-10 h-10 mr-3">
-                <div class="text-left">
-                  <p class="font-semibold">Orlando Schulist</p>
-                  <p class="text-sm text-white">Company Owner</p>
-                </div>
-              </div>
             </div>
-          </swiper-slide>
-          <!-- 3 -->
-          <swiper-slide>
-            <div class="bg-white shadow-lg p-6 rounded-lg max-w-7xl relative">
-              <div class="flex mb-4">
-                <div class="text-[#ffba00]">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
+            <div class="swiper-slide">
+                <div class="bg-white shadow-lg p-6 rounded-lg max-w-7xl relative">
+                    <div class="flex mb-4">
+                        <div class="text-[#ffba00]">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 text-lg mb-4 relative text-left w-full">
+                        We've had the pleasure of working with [Your Company Name] for several years
+                        now, and they have consistently exceeded our expectations in every aspect. From
+                        the initial consultation to ongoing support, their team has demonstrated a deep
+                        understanding.”
+                    </p>
+                    <div class="text-4xl text-gray-400 absolute bottom-4 right-4">
+                        <img src="images/quito6.svg.svg" alt="">
+                    </div>
+                    <div class="flex items-center mt-4">
+                        <img src="images/testimonial-img4.png.png" alt="Client photo" class="rounded-full w-10 h-10 mr-3">
+                        <div class="text-left">
+                            <p class="font-semibold">Orlando Schulist</p>
+                            <p class="text-sm text-gray-500">Company Owner</p>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <!-- Quotation marks -->
-
-              <p class="text-gray-700 text-lg mb-4 relative text-left max-w-[600px]">
-                We've had the pleasure of working with [Your Company Name] for several years
-                now, and they have consistently exceeded our expectations in every aspect. From
-                the initial consultation to ongoing support, their team has demonstrated a deep
-                understanding.”
-              </p>
-              <div class="text-4xl text-gray-400 absolute bottom-4 right-4">
-                <img src="images/quito6.svg.svg" alt="">
-              </div>
-              <div class="flex items-center mt-4">
-                <img src="images/testimonial-img4.png.png" alt="Client photo" class="rounded-full w-10 h-10 mr-3">
-                <div class="text-left">
-                  <p class="font-semibold">Orlando Schulist</p>
-                  <p class="text-sm text-gray-500">Company Owner</p>
-                </div>
-              </div>
             </div>
-          </swiper-slide>
-          <!-- 4 -->
-          <swiper-slide>
-            <div class="bg-[#ff6610] text-white shadow-lg p-6 rounded-lg max-w-7xl relative">
-              <div class="flex mb-4">
-                <div class="text-[#ffba00]">
-                  <i class="fas fa-star bg-[#FD7433] p-1"></i>
-                  <i class="fas fa-star bg-[#FD7433] p-1"></i>
-                  <i class="fas fa-star bg-[#FD7433] p-1"></i>
-                  <i class="fas fa-star bg-[#FD7433] p-1"></i>
-                  <i class="fas fa-star bg-[#FD7433] p-1"></i>
+            <div class="swiper-slide">
+                <div class="bg-[#ff6610] text-white shadow-lg p-6 rounded-lg max-w-7xl relative">
+                    <div class="flex mb-4">
+                        <div class="text-[#ffba00]">
+                            <i class="fas fa-star bg-[#FD7433] p-1"></i>
+                            <i class="fas fa-star bg-[#FD7433] p-1"></i>
+                            <i class="fas fa-star bg-[#FD7433] p-1"></i>
+                            <i class="fas fa-star bg-[#FD7433] p-1"></i>
+                            <i class="fas fa-star bg-[#FD7433] p-1"></i>
+                        </div>
+                    </div>
+                    <p class="text-white text-lg mb-4 relative text-left w-full">
+                        We've had the pleasure of working with [Your Company Name] for several years
+                        now, and they have consistently exceeded our expectations in every aspect. From
+                        the initial consultation to ongoing support, their team has demonstrated a deep
+                        understanding.”
+                    </p>
+                    <div class="text-4xl text-white absolute bottom-4 right-4">
+                        <img src="images/quito7.svg.png" alt="">
+                    </div>
+                    <div class="flex items-center mt-4">
+                        <img src="images/testimonial-img3.png.png" alt="Client photo" class="rounded-full w-10 h-10 mr-3">
+                        <div class="text-left">
+                            <p class="font-semibold">Orlando Schulist</p>
+                            <p class="text-sm text-white">Company Owner</p>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <!-- Quotation marks -->
-
-              <p class="text-white text-lg mb-4 relative text-left max-w-[600px]">
-                We've had the pleasure of working with [Your Company Name] for several years
-                now, and they have consistently exceeded our expectations in every aspect. From
-                the initial consultation to ongoing support, their team has demonstrated a deep
-                understanding.”
-              </p>
-              <div class="text-4xl text-white absolute bottom-4 right-4">
-                <img src="images/quito7.svg.png" alt="">
-              </div>
-              <div class="flex items-center mt-4">
-                <img src="images/testimonial-img3.png.png" alt="Client photo" class="rounded-full w-10 h-10 mr-3">
-                <div class="text-left">
-                  <p class="font-semibold">Orlando Schulist</p>
-                  <p class="text-sm text-white">Company Owner</p>
-                </div>
-              </div>
             </div>
-          </swiper-slide>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
 
-        </swiper-container>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var swiper = new Swiper('.mySwiper', {
+                loop: true,
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+                spaceBetween: 10, // Default space between slides
+                slidesPerView: 1, // Default for mobile
 
-      </div>
-      </div>
-      </div>
+                breakpoints: {
+                    640: {
+                        slidesPerView: 1, // 1 slide on small screens
+                        spaceBetween: 10, // Less space on mobile
+                    },
+                    1024: {
+                        slidesPerView: 3, // 3 slides on larger screens
+                        spaceBetween: 30, // More space on larger screens
+                    },
+                },
+            });
+        });
+    </script>
+   </section>
 
-
-
-      </div>
-
-    </section>
+    <!-- client  -->
+    
 
     <!-- Our Latest Blog & News  -->
     <section class="lg:mb-60 xl:px-40 md:px-10  px-5 my-10">
@@ -1066,10 +1190,10 @@
 
     </div>
     <!-- bottom  f-->
-    <div class="mx-auto container py-16 px-5 md:px-16 lg:pt-52 pt-16 lg:pb-20 lg:px-24">
+    <div class="mx-auto container py-16  md:px-16 lg:pt-52 pt-16 lg:pb-20 lg:px-24">
       <!--- more free and premium Tailwind CSS components at https://tailwinduikit.com/ --->
-      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 md:gap-8 gap-4">
-        <div class="flex flex-col flex-shrink-0 space-y-2">
+      <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 gap-8 px-10">
+        <div class="flex flex-col flex-shrink-0 space-y-2 mx-auto">
           <div class="mb-2">
             <img src="images/logo2.png.png" alt="">
           </div>
@@ -1109,7 +1233,7 @@
             </button>
           </div>
         </div>
-        <div class="sm:ml-0 ml-8 flex flex-col">
+        <div class="flex flex-col mx-auto">
           <h2 class="lg:text-2xl text-base font-bold text-white mb-2">About Link</h2>
           <a href="javascript:void(0)"
             class="focus:outline-none focus:underline hover:text-gray-500 text-base leading-4 mt-6 text-white cursor-pointer">Our
@@ -1127,7 +1251,7 @@
             class="focus:outline-none focus:underline hover:text-gray-500 text-base leading-4 mt-6 text-white cursor-pointer">Contact
             Us</a>
         </div>
-        <div class="flex flex-col">
+        <div class="flex flex-col mx-auto">
           <h2 class="lg:text-2xl text-base font-bold text-white mb-2">Get in touch</h2>
           <div class="text-left flex justify-start">
            <ul class="space-y-4 text-sm">
@@ -1197,7 +1321,7 @@
           </div>
         </div>
       </div>
-      <div class="mt-10 lg:hidden space-y-3 sm:space-y-5">
+      <div class="mt-10 lg:hidden space-y-3 sm:space-y-5 px-5">
         <h2 class="lg:text-2xl text-base font-bold text-white">Subscribe Our Newsletter</h2>
          
         <div class="flex flex-1 gap-2 items-center px-4  rounded-full  bg-[#f6f8fa]">
@@ -1217,9 +1341,9 @@
         
       </div>
     </div>
-    <div class="pt-6 mt-12 border-t mb-1 pb-1 border-gray-800">
+    <div class="pt-6 mt-12 border-t mb-1 pb-1 border-gray-800 px-5">
       <div class="text-center sm:flex sm:justify-between sm:text-left">
-        <p class="text-sm flex gap-7">
+        <p class="text-sm flex gap-7 justify-center md:justify-start">
          
           <a
             class="inline-block text-[#fff]  transition hover:text-orange-500"
@@ -1241,7 +1365,7 @@
         </p>
       </div>
     </div>
-    <div class="absolute right-3 lg:right-5">
+    <div class="absolute right-3 lg:right-5 px-5">
          <img src="images/footer.png" class="bg-orange-500 rounded-full p-2" alt="">
     </div>
   </footer>
@@ -1249,6 +1373,29 @@
   <script src="extra.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+  <script>
+    const btn = document.querySelector("button.sidebar-open")
+    const menu = document.querySelector(".menu-resposive")
+    const buttonOpen = document.querySelector(".btn-open")
+    const buttonClose = document.querySelector(".btn-close")
+   
+  
+    btn.addEventListener("click", () => {
+      menu.classList.toggle("hidden")
+      formSearch.classList.toggle("hidden", true)
+      buttonOpen.classList.toggle("hidden"),
+        buttonClose.classList.toggle("hidden")
+    })
+  
+    const buttonMenu = document.querySelector("button.search-menu")
+    const  freeBtn = document.getElementById("free-btn")
+    const formSearch = document.querySelector(".search-form")
+  
+    buttonMenu.addEventListener("click", () => {
+      formSearch.classList.toggle("hidden")
+      freeBtn.classList.toggle("block")
+    })
+  </script>
 </body>
 
 </html>
